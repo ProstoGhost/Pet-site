@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 :root{
     --index: calc(1vw + 1vh);
@@ -64,7 +65,7 @@ body{
     transform: translateZ(180px) scale(.8);
 }
 .layer-4{
-    transform: translateZ(190px) scale(.09);
+    transform: translateZ(190px) scale(.9);
 }
 .layer-5{
     transform: translateZ(300px) scale(.9);
