@@ -4,6 +4,10 @@
     box-sizing: border-box;
     border: 0;
 }
+::selection{
+    background: rgba(199, 229, 183, 0.4); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+}
 :root{
     --index: calc(1vw + 1vh);
     --transition: 1.5s cubic-bezier(.05, .5, 0, 1);

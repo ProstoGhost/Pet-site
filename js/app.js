@@ -1,6 +1,5 @@
 window.addEventListener('deviceorientation', function(event) {
     if (event.alpha !== null && event.beta !== null && event.gamma !== null) {
-        console.log('Device has a gyroscope.');
         Object.assign(document.documentElement, {
             style: `
                 --move-x: 0deg;
